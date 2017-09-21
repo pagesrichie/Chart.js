@@ -1,3 +1,9 @@
+// < RICHIE_REMOVE_WINDOW >
+if (typeof window === 'undefined') {
+  global.window = {};
+}
+// </ RICHIE_REMOVE_WINDOW >
+
 /* global window: false */
 /* global document: false */
 'use strict';
